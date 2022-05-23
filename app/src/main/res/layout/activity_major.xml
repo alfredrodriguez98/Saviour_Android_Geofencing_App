@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="100dp"
+    tools:context=".MajorActivity">
+
+    <TextView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Navigate"
+        android:drawableLeft="@drawable/compass"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/instruct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" SOS"
+        android:drawableLeft="@drawable/sos"
+        android:drawableTint="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Content"
+        android:drawableLeft="@drawable/cont"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/gall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Gallery"
+        android:drawableLeft="@drawable/gal"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Settings"
+        android:drawableLeft="@drawable/set"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/whats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Updates"
+        android:drawableLeft="@drawable/update"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Team"
+        android:drawableLeft="@drawable/team"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

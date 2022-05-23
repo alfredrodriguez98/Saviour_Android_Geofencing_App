@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="642dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:text="You agree that the Services, including but not limited to Content,graphics,user interface,audio clips,video clips,editorial content, and the scripts and software used to implement the Services, contain proprietary information and material that is owned by SAVIouR and/or its licensors, and is protected by applicable intellectual property and other laws, including but not limited to copyright.
+You are granted no right or license with respect to any of the aforesaid trademarks."
+        android:textColor="#141414"
+        android:textStyle="normal"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>

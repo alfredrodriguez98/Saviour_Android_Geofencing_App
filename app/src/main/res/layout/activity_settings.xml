@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="206dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text=" Location acccess"
+            android:drawableLeft="@drawable/locperm"
+            android:layout_marginLeft="12dp"
+            android:textColor="#141414"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:ems="10"
+            android:text="ToggleButton"
+            android:layout_gravity="right"
+            android:textColor="#141414"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Terms of Service"
+        android:drawableLeft="@drawable/term"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Privacy Policy"
+        android:drawableLeft="@drawable/privacy"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/faq"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" FAQs"
+        android:drawableLeft="@drawable/faq"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/bugs"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:drawableLeft="@drawable/bug"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=" Bugs Report"
+        android:textColor="#141414"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginRight="0.1dp"
+    android:layout_marginTop="0.1dp"
+    android:layout_marginLeft="0.1dp"
+    android:background="@drawable/background"
+
+
+
+    tools:context=".FaqActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Fix a problem"
+        android:textColor="#141414"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Monitor existing geofences" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Add new geofences " />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Manage your account and settings" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Upload your memories" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Join the SAVIour premium" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="#141414"
+
+        android:text="Policy, safety and copyright" />
+</LinearLayout>

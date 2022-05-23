@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:padding="01dp"
+    android:background="@drawable/background"
+    tools:context=".ContentActivity"
+    >
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="380dp"
+        android:layout_height="570dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="40dp"
+
+        android:ems="15"
+        android:text=" SAVIouR is a developmental software which aims to support fishermen to achieve competitive edge in fishing arena within the permitted boundaries. We also offer customised networking solutions in the navigation space to tackle real time challenges.
+
+        SAVIour is an app designed by keeping fishermen in mind. We ensure to provide you a safer journey and make every voyage memorable. Currently, we are in development stage, and we promise to add more new features and bug fixes with each update. Thank you for choosing SAVIour..
+Happy Sailing..!"
+        android:textAlignment="gravity"
+        android:textColor="#141414"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>

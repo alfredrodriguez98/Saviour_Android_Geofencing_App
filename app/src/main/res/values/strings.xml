@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SAVIouR</string>
+    <string name="title_activity_maps">SAVIouR</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="saviour">SeaFence</string>
+
+    <string name="website">
+        <a href="https://www.linkedin.com/in/alfred001">  Contact the developer  </a>
+    </string>
+
+
+</resources>

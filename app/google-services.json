@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "182213029618",
+    "firebase_url": "https://alfroid-1c66f.firebaseio.com",
+    "project_id": "alfroid-1c66f",
+    "storage_bucket": "alfroid-1c66f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182213029618:android:a4f692877b091f1cca2a6b",
+        "android_client_info": {
+          "package_name": "com.e.alfroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182213029618-d4qelmm5ih80rl6ir0erhunoj1fbvfq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl6a-cSuTM4MbUCWLmIBh7fdt6nN-6R3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182213029618-d4qelmm5ih80rl6ir0erhunoj1fbvfq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
